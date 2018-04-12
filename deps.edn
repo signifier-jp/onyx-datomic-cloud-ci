@@ -1,0 +1,14 @@
+{:mvn/repos {"gocd" {:url "https://dl.bintray.com/gocd-maven-repo/generic/gocd"}}
+ :mvn/local-repo "m2"
+ :deps 
+ {lambdacd {:mvn/version "0.13.5"}
+  lambdacd-git {:mvn/version "0.4.0"}
+  lambdaui {:mvn/version "1.0.0"}
+  environ {:mvn/version "1.1.0"}
+  http-kit {:mvn/version "2.2.0"}
+  mount {:mvn/version "0.1.12"}
+  org.clojure/clojure {:mvn/version "1.8.0"}
+  org.clojure/tools.logging {:mvn/version "0.3.1"}
+  org.slf4j/slf4j-api {:mvn/version "1.7.5"}
+  ch.qos.logback/logback-core {:mvn/version "1.0.13"}
+  ch.qos.logback/logback-classic {:mvn/version "1.0.13"}}}
